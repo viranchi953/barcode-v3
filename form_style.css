@@ -1,0 +1,71 @@
+/* Base styles for mobile responsiveness */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0; /* Optional background color */
+    height: 100vh; /* Set body height to 100vh for full screen */
+  }
+  
+  /* Container for centering and styling */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensure full width on mobile */
+  }
+  
+  /* Form styling */
+  .form-wrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjust width as needed */
+    max-width: 400px; /* Limit maximum width on larger screens */
+    text-align: center; /* Align text to center for better readability */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Input group styling */
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Submit button styling */
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
+
+  
